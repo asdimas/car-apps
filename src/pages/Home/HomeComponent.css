@@ -116,7 +116,7 @@ ul li {
 
 @media (min-width: 992px) {
   .container-hero {
-    height: 586px;
+    height: 528px;
   }
 
   .hero-headline {
@@ -126,7 +126,7 @@ ul li {
   .img-car {
     position: absolute;
     right: 0;
-    width: 800px;
+    width: 700px;
   }
   .why-section {
     margin-top: 150px;
