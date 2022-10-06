@@ -1,0 +1,228 @@
+.container-home {
+  overflow-x: hidden;
+}
+
+.container-hero {
+  background-color: #f1f3ff;
+}
+
+.navbar {
+  height: 75px;
+}
+
+.nav {
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #0d28a6 !important;
+}
+
+.navbar-brand {
+  background-color: #0d28a6;
+  width: 100px;
+  height: 34px;
+}
+
+.hero-headline h1 {
+  font-weight: 700;
+  color: var(--textPrimary);
+}
+
+.hero-headline p {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.btn-sewa {
+  background-color: #5cb85f;
+}
+
+.btn-sewa {
+  background-color: #5cb85f !important;
+  border: none !important;
+}
+
+.btn-sewa:hover {
+  background-color: #51a355 !important;
+  transition: 0.2s !important;
+}
+
+.service-section {
+  margin-top: 150px;
+}
+
+.desc ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  margin-left: -30px;
+}
+
+.desc h2 {
+  font-weight: 700;
+  color: var(--textPrimary);
+  margin-bottom: 30px;
+}
+
+.desc p,
+ul li {
+  font-weight: 600;
+}
+
+.card-section {
+  margin-top: 30px !important;
+}
+
+.testimonial-section {
+  margin-top: 150px;
+}
+
+.title-testimonial {
+  margin-bottom: 50px !important;
+}
+
+.testimonial-1,
+.testimonial-2,
+.testimonial-3 {
+  background-color: #f1f3ff;
+  margin-right: 20px;
+  /* padding-top: 50px; */
+}
+
+.faq-section {
+  margin-top: 150px;
+}
+
+.change-fw {
+  font-weight: 600 !important;
+}
+
+.footer-section {
+  margin-top: 150px;
+}
+
+.footer-section ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.footer-section img {
+  margin-right: 10px;
+}
+
+/* Responsive */
+
+@media (min-width: 992px) {
+  .container-hero {
+    height: 586px;
+  }
+
+  .hero-headline {
+    margin-top: 100px !important;
+  }
+
+  .img-car {
+    position: absolute;
+    right: 0;
+    width: 800px;
+  }
+  .why-section {
+    margin-top: 150px;
+  }
+}
+
+.cta-section {
+  margin-top: 150px;
+}
+
+.cta-card {
+  background-color: #0d28a6 !important;
+}
+
+@media (max-width: 576px) {
+  .container-hero {
+    height: 77.1vmax;
+  }
+  .hero-section {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .img-car {
+    width: 100%;
+    margin-top: 50px;
+    position: absolute;
+    right: 0;
+  }
+
+  .service-section {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .img-service img {
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .desc ul li {
+    font-size: 14px;
+  }
+
+  .desc p {
+    margin-top: -10px;
+  }
+
+  .why-section {
+    margin-top: 100px;
+  }
+  .title-why {
+    text-align: center;
+  }
+
+  .testimonial-1,
+  .testimonial-3 {
+    visibility: hidden !important;
+  }
+
+  .testimonial-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-rate {
+    justify-content: center !important;
+  }
+
+  .content-testi {
+    margin-top: 40px;
+  }
+
+  .testimonial-2 {
+    margin-top: -200px !important;
+  }
+
+  .testimonial-row {
+    padding-left: 35px !important;
+    padding-right: 1em !important;
+  }
+
+  .cta-section {
+    margin-top: -150px !important;
+  }
+
+  .faq-section {
+    margin-top: 80px !important;
+  }
+
+  .footer-section {
+    margin-top: 80px;
+  }
+
+  .faq-section h2,
+  .faq-section p {
+    text-align: center;
+  }
+}

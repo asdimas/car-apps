@@ -1,0 +1,22 @@
+.btn-cari {
+  background-color: #5cb85f !important;
+  border: none !important;
+  margin-top: 30px !important;
+  margin-left: 50px !important;
+}
+
+.btn-cari:hover {
+  background-color: #51a355 !important;
+  transition: 0.2s !important;
+}
+
+.search-section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 100px;
+}
+
+@media (max-width: 576px) {
+  .btn-cari {
+    margin-left: 0 !important;
+  }
+}
